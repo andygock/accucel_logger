@@ -1,4 +1,4 @@
-accucel_logger
+Accucel Logger
 ==============
 
 by Andy Gock
@@ -24,3 +24,6 @@ Run (Linux/Mac):
 	python log.py /dev/ttyUSB0 | tee file.txt
 
 Press Ctrl+C to terminate.
+
+Read more in my write up here:
+http://micro.gock.net/2013/08/usb-datalogging-on-the-turnigy-accucel-6-hobby-charger/
