@@ -102,7 +102,7 @@ while True:
 			sample['current'] = ord(data[33])-128 + (ord(data[34])-128)/100.0
 			sample['voltage'] = ord(data[35])-128 + (ord(data[36])-128)/100.0
 			sample['input_voltage'] = ord(data[41])-128 + (ord(data[42])-128)/100.0
-			sample['charge'] = (ord(data[43])-128)/100 + (ord(data[44])-128)
+			sample['charge'] = (ord(data[43])-128)*100 + (ord(data[44])-128)
 			sample['minutes'] = ord(data[70])-128
 
 			#print sample
